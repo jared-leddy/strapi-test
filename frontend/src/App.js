@@ -6,7 +6,7 @@ import ReviewDetailsPage from "./pages/ReviewDetails";
 import CategoryPage from "./pages/Category";
 import SiteHeader from "./components/SiteHeader";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div className="App">
@@ -26,5 +26,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
