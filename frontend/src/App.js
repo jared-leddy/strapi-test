@@ -1,3 +1,10 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+// page & layout imports
+import HomePage from "./pages/Home";
+import ReviewDetailsPage from "./pages/ReviewDetails";
+import CategoryPage from "./pages/Category";
+import SiteHeader from "./components/SiteHeader";
 
 function App() {
   return (
